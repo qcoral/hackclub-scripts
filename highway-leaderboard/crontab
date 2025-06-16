@@ -1,0 +1,2 @@
+# Run every minute
+* * * * * cd /app && node index.js >> /var/log/leaderboard-cron.log 2>&1
