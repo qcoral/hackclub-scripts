@@ -34,7 +34,8 @@ async function updateLeaderboard() {
       const recordData = {
         "email": email,
         "slack_id": data.slack_id || '',
-        "total_points": data.total_points
+        // Always sum project_points and sidequest_points for total_points
+        "total_points": (data.project_points || 0) + (data.sidequest_points || 0)
       };
       if (existingEmails.has(email)) {
         updates.push({
@@ -42,13 +43,13 @@ async function updateLeaderboard() {
           fields: recordData
         });
         // Debugging: log update action
-        console.log(`🔄 Updating ${email} (${existingEmails.get(email)}) with ${data.total_points} points`);
+        console.log(`🔄 Updating ${email} (${existingEmails.get(email)}) with ${recordData.total_points} points`);
       } else {
         creates.push({
           fields: recordData
         });
         // Debugging: log create action
-        console.log(`🆕 Creating ${email} with ${data.total_points} points`);
+        console.log(`🆕 Creating ${email} with ${recordData.total_points} points`);
       }
     }
 
@@ -93,7 +94,7 @@ async function getCombinedPoints() {
         const records = await base(process.env.AIRTABLE_PROJECT_TABLE_ID)
             .select({
                 filterByFormula:
-                    "OR({Status} = 'Approved', {Status} = 'Fulfilled')",
+                    "OR({Status} = 'Approved (Tentatively)', {Status} = 'Fulfilled')",
                 // You can add filters or sorting here if needed
             })
             .all();
@@ -107,12 +108,7 @@ async function getCombinedPoints() {
             const slackId = record.get("slack_id");
             const points = record.get("points") || 0;
 
-            let numericPoints = 0;
-            if (typeof points === "number") {
-                numericPoints = points;
-            } else if (typeof points === "string") {
-                numericPoints = parseFloat(points) || 0;
-            }
+            let numericPoints = points;
 
             if (email) {
                 if (!users[email]) {
