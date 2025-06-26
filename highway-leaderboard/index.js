@@ -94,7 +94,7 @@ async function getCombinedPoints() {
         const records = await base(process.env.AIRTABLE_PROJECT_TABLE_ID)
             .select({
                 filterByFormula:
-                    "OR({Status} = 'Approved (Tentatively)', {Status} = 'Fulfilled')",
+                    "{Status} = 'Fulfilled'",
                 // You can add filters or sorting here if needed
             })
             .all();
