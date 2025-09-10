@@ -1,0 +1,1334 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/kishi-j/K-Board/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-focused entries that describe schematics, PCB routing, stitching vias, and CAD work in Fusion 360 for the case and plate; those entries include several embedded images (e.g., images on June 20, June 22, June 27, June 28, July 1, July 5, July 8).",
+    "build_justification": "The journal includes build-oriented text (September 1 and September 2) describing soldering diodes, screen, switches, adding keycaps and creating firmware, but those build entries do not include any embedded images."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/euvalennn/rpboard-squared/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains extensive design-oriented text describing schematic work, footprint assignment, PCB layout, routing, and 3D modelling across many entries (e.g. July 15–29). Multiple inline images accompany these design entries, such as assets/schematic-july-15.png, assets/pcb-july-24-3d.png and assets/pcb-final.png, demonstrating schematics and PCB views.",
+    "build_justification": "There is build-related text describing receiving assembled PCBs and flashing CircuitPython (August 22) and related firmware/library troubleshooting, so build activity is documented, but no images are provided specifically in the build/assembly entries (all images are of schematics/PCBs in the editor), so no build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/peterxn123/smart-poop-bucket/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "Design text is present in multiple sections describing hardware choice, CAD modelling in Fusion 360 (dimensions, features, importing electronics models) and PCB/schematic work in KiCad (July 29, July 31, Aug 6). Those design sections are accompanied by images (e.g., the image after the July 29 entry and the CAD/PCB images later in the journal).",
+    "build_justification": "Build text is present describing firmware development (MicroPython, HX711 integration, HTML UI), UI polish, and the physical build/ordering steps (July 30, Aug 5, Aug 9). These build-related sections include images (for example the firmware/UI image after the July 30 entry and the images in the August 5 and August 9 build entries)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Overlord-Runt/Fold-Board/main/JOURNAL.MD",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-related descriptions (PCB layout, split board wiring strategy, CAD/case design, bridge decisions, silkscreen, PCB polishing) and includes several design images such as assets/pcb.png, assets/cad.png, assets/cad1.png, assets/cad3.png, and assets/cad4.png.",
+    "build_justification": "The journal includes build-related content (firmware work, soldering the PCB, printing the case, making a rubber-band holder, making keycaps, replacing broken wires and final assembly) and contains build images such as assets/folded.png and assets/buildopen.jpg showing the assembled/prototyped board."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Slivki-coder/Mechanical_keyboard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design text describing schematic decisions, PCB layout choices, and 3D CAD modeling (entries on June 26, June 29, June 30, July 1, and July 29-31). It also includes multiple Markdown-format images showing schematics and CAD screenshots (e.g., images on June 26, June 29, and June 30).",
+    "build_justification": "The journal contains build text describing wiring, 3D printing, assembly, soldering, and firmware upload/debugging (entries on June 27, August 18-20 and July 1 mentions firmware). It also includes Markdown images of the physical assembly and prints (e.g., images on August 18 and August 19) and photos of the assembled PCB and final build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheTridentGuy/rp-nano/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-focused text describing schematic and PCB work (completed schematic, PCB routing by hand, switching to a 4-layer PCB and redoing traces/layout). It also includes design images such as images/pcb2.png, images/3d1.png, images/pcb1.png, and images/sch1.png showing the PCB and schematic.",
+    "build_justification": "The journal contains build-focused text about receiving PCBs, discovering the wrong LDO, putting the board on '3V3 life support', and installing CircuitPython to run HID code. It includes build photos images/20250819_191516.jpg and images/20250819_191546.jpg showing the assembled/debugged board and wiring."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JeffreyWangDev/LED-tower/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains substantial digital design content (Onshape CAD work, PCB/schematic work in EasyEDA, USB‑PD IC selection, and PCB layout) described across multiple days, and includes several markdown-style image links (e.g., the model and PCB screenshots) in those design sections.",
+    "build_justification": "There is clear physical build text describing prototyping, laser cutting, wooden mockups, assembly of the base (PCBs, antenna, power socket) and mounting of acrylic panels; however the photographic evidence in those build entries is given as HTML <img> tags rather than markdown-style ![](...) images, so per the rule requiring ![](...) images the build_images_present flag is false."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Niqtan/Pagtingin-to-Highway/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content — multiple entries describe CAD for the glasses, schematic work, KiCad simulations, PCB layout, FFC/FPC connector planning, footprint and panelization decisions (Entries in June: e.g., 06-11, 06-13, 06-15, 06-17, 06-18–06-20, 06-24). Design-related images are included (for example 'Screenshots/image-2.png' labeled \"Making the Glasses CAD\", KiCad/layout screenshots and final PCB/CAD images such as the PCB and CADDesign images).",
+    "build_justification": "The journal also documents physical build and firmware work — unit testing, firmware development (FSM, sensor/audio integration), soldering and assembly attempts, and debugging of programming interfaces (Entries in June–August, e.g., 06-27, 07-02, 07-09, 07-27, 08-03–08-11). Build-related photos are present showing prototypes, soldering and assembly problems (for example 'Screenshots/viber_image_2025-06-27_18-02-09-285.jpg', 'Screenshots/image-17.png', 'Screenshots/image-20.jpg', and multiple images of soldering/enamel wire fixes)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eet-cheez/RoverDrive-Hardware/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains extensive design-phase text covering schematics, component selection, PCB footprint placement, routing, DRC fixes, and CAD enclosure changes (Days 1–9). Multiple design-related images are embedded (schematic and PCB screenshots, CAD before/after images), confirming design images are present.",
+    "build_justification": "The Assembly section describes physical build activity (soldering order, heat gun work, component removal, troubleshooting VCC/GND short and USB connector issues), so build text is present, but there are no images placed within the assembly/build entries, so build images are not present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Scott170c/Quadrumini/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing CAD work, PCB schematics, MCU and PCA9685 selection, housing iterations, and power planning; these entries include several design images such as CAD renders, PCB schematics, and a compliant-leg illustration.",
+    "build_justification": "The journal also includes build and testing entries covering circuit testing, assembly of 3D-printed parts, and firmware/coding, and includes a photo of the fully built robot in the 'Full Build' entry."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ayushj-18/procastinateboard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-focused entries describing schematics, PCB layout, BOM, CAD/Onshape work, and component footprint assignment (e.g., Day 1–4, Day 7–8). Several embedded images (e.g., PCB/CAD screenshots like assets/... and screenshots/readme-ss/*.png) accompany those design entries.",
+    "build_justification": "There are build-related texts discussing firmware work, microcontroller choice, and updates to the PCB (e.g., firmware took ~2 hours, switching RP2040->RP2035, checking firmware and BOM), but no images appear to document physical assembly, soldering, or firmware/hardware in a build context—the included images are screenshots of schematics/CAD rather than build photos."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ultratrikx/walkman/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal includes design-related text describing CAD work, part models, wiring planning, and choice of microcontroller (Raspi Pico). It also contains design images (assets/cad3.png and a wiring diagram assets/wiring.jpg) illustrating the CAD and wiring.",
+    "build_justification": "The journal contains build-related text describing firmware development: NFC interfacing, OLED display logic, and Home Assistant integration. However, there are no images associated with the firmware/physical build sections, so build images are not present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Tinkering-Townsperson/floppy_square/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes digital design content: multiple entries about creating and iterating a KiCad schematic and 3D/case CAD work (exporting F3D/STEP files and adding components). It also contains several images tied to those design steps (e.g. ./journal-assets/04-schematic-beginning.jpg, ./journal-assets/06-schematic-continued1.jpg, ./journal-assets/07-schematic-continued2.jpg, ./journal-assets/11-assembled-case-mockup.jpg, ./journal-assets/12-assembled-mockup-with-components.jpg).",
+    "build_justification": "The journal describes physical build activity including wiring, testing the display, soldering the display pins, and firmware work. There are photos showing the hardware and wiring/tests in the build-related sections (e.g. ./journal-assets/00-test-of-display.jpg and ./journal-assets/01-unsoldered.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/destroyer796/3DWelder/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing schematics, PCB layout, BOM, CAD work, and planning (multiple entries on July 5–9 and July 18). It also includes several design-related images (schematic, PCB, CAD, renders) embedded via <img> tags.",
+    "build_justification": "The journal includes build-phase text describing printing parts, soldering the PCB, wiring the buck converter, assembly, firmware/debugging, and the demo (August entries). There are build-related images (soldering photos, mock-up and final photos) included via <img> tags."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hobonker/Unicorn-Lamp-Highway/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design descriptions (schematic work in KiCad, multiple Fusion CAD modeling steps, PCB layout and assembly planning) across entries from 5/24 to 8/6. Those design entries include multiple images such as Schematic Lamp.png, Lamp Torso/Head CAD screenshots, and KiCad PCB/Unilamp PCB renders.",
+    "build_justification": "The journal also describes physical build activities (soldering the PCB, 3D printing parts, assembly, wiring, and coding) in the 8/12–8/14 entries and includes photos of the completed PCB (PCBLamp.jpg) and printed lamp head (Printed Lamp Head.jpg) documenting the build phase."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/shiva233/HackCharm/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content (planning sketches, schematic work in KiCad, PCB layout/reroutes, silkscreen art, and Fusion360 CAD modelling) described across multiple entries. Multiple design-related images are included (notebook sketch, schematic screenshots, PCB layout and 3D model renders) supporting the design text.",
+    "build_justification": "The journal documents physical build activities (parts arrival, soldering, assembly, case reworks, battery soldering, and firmware/accelerometer testing) with descriptive text. Build-related photos are present showing the assembled PCB, soldering close-ups, the device in its case, and prototype test screenshots, which satisfy the image requirement for the build phase."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Person20020/jug/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content: KLE/layout work, Fusion CAD plates, PCB layout/routing, reversible footprints, and case design described across multiple entries. Multiple design-related images accompany this (Fusion/KLE screenshots, PCB/routed images, footprint images, and 3D case renders).",
+    "build_justification": "The journal documents physical build and firmware work: printed test plates, printed key/plate photos, LED cutout photos, and firmware/QMK/Vial development are described. Build-related images appear (photos of printed plates, LED indicator cutout, and a Vial screenshot showing firmware testing)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ConfusedHello/USB-Mic/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design/planning content: multiple entries describe schematics, SPICE simulations, PCB/revision work, component selection, and system architecture (STM32, ADC, power stages). Numerous design-related images are included (e.g. Rev4Initial.png, Rev3Schematic.png, SPICEAC.png, PCBFINAL.png and many schematic/RevX images).",
+    "build_justification": "The August 9th entry describes hands-on assembly and debugging (hot air soldering, hot plate reflow, desoldering/resoldering, replacing the voltage regulator with a Xiao RP2040, removing the USB isolator and bodging a D+ pullup) and includes build photos (/assets/PCBempty.jpg, /assets/PCBpopulated.jpg, /assets/PCBfinal.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lordbagel42/glowpad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains detailed digital design discussion (Onshape sketches, keycap spacing measurements, extrudes, LED slot, use of delete part and derived tool) describing CAD and planning. Multiple design images are included (e.g., pictures/pcbnew_mU8lSelHEY.png and several pictures/chrome_*.png) within the design-related sections.",
+    "build_justification": "The journal includes build-phase details (3D printing iterations, acrylic cutting, glue mishap, soldering, and ZMK firmware configuration) describing physical assembly and firmware. A build-related photo is present (pictures/soldering.jpg) showing the soldering/assembly work."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Jayx2u/vocalink/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content: schematic creation (ESP32, OV2640, power rails, FPC connector), PCB layout and CAD/mount design, BOM and fabrication file prep. These design entries include multiple inline images (e.g. assets/SCR-20250710-hgvd.png, assets/SCR-20250710-hnoe.png, assets/vocalink-pcbdesign.png, and CAD renders) illustrating the schematics, PCB and CAD work.",
+    "build_justification": "The journal documents physical build activities including hot air reflow soldering, troubleshooting the FPC connector and ESP32 soldering/delidding, flashing firmware and final assembly/mounting. Those build entries include several photographic images showing the soldering setup and assembled board (hosted on hc-cdn.hel1.your-objectstorage.com) and final product photos demonstrating the completed build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bodergob373/Electric-Doohickey/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design and planning text (CAD modeling of pipes, batteries, motor controller, wiring diagrams, BOM, and final design decisions) and includes multiple images of 3D models and wiring diagrams (e.g., July 1, July 2, July 9, July 16 entries) illustrating the digital design work.",
+    "build_justification": "The journal documents physical build activity (cutting, welding, assembling, soldering, electronics testing, and final build/testing) and includes many photos of the welded frame, assembled parts, battery installation, and electronics (e.g., August 5–14 entries) showing the hands-on build progress."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jaxfry/Solace/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-focused entries describing CAD, case iterations, BOM, UI layout, and planning (e.g., 'Design sketch', 'Design Prototype Case', 'UI Implementation', and 'Case Design' entries). Those design entries include images such as the notebook sketch and case prototype screenshots, satisfying the image requirement for the design phase.",
+    "build_justification": "The journal includes build-focused entries detailing soldering, assembly, and firmware/code work (e.g., 'Start and almost finish assembling', 'Solder everything 100%', and 'Final Assembly and rewrite of the entire code!'). However, none of the images in the journal appear inside those build entries, so there are no build-phase images."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Rikhav21/Recycliment/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text describing CAD work, BOM/planning, PCB and schematic creation (e.g., Day 2, Day 3, Day 6, Day 9). It also includes design-related images such as the labeled CAD image on Day 2 and schematic/PID images on Day 9.",
+    "build_justification": "The journal contains build-phase text describing physical assembly, sanding, wiring, soldering, heating, shredder construction and first extrusion runs (e.g., Day 10–Day 15). It includes build photos (shredder, assembled parts, wiring and heating insulation) on Days 10–14. "
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Someon332/plasticbread/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The Planning section contains CAD/design discussion (breadboard geometry, tolerances, Fusion threading, modeled mounts and BOM choices) and includes multiple in-place images (e.g. images under the Planning headings such as https://github.com/user-attachments/assets/392b0e1a-f3b0-4eee-9dbf-659399404b56).",
+    "build_justification": "The Build section describes physical work (3D printing, tolerance adjustments, assembly, and testing) and includes at least one build image (e.g. https://github.com/user-attachments/assets/a265b56c-f8b6-44b1-a4dc-0ad762ee2fa5)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/possiblyselena/pokemon-vending-machine/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design/CAD descriptions (TinkerCAD schematic work, PCB/wiring notes, and detailed CAD part design for the case, button caps, shelves, etc.), and several images accompany these sections showing the schematic and CAD/part renders.",
+    "build_justification": "The journal also documents physical build work (mentions starting assembly, 3D printing parts, wiring/demonstrating connections, finishing firmware, and final assembly/gluing), and includes photos of the wiring/firmware demo and the final assembled device."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/sharonbasovich/keeb/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains extensive design-related text describing KiCAD schematics, PCB/layout work, Fusion360 CAD for the case, BOM creation, and planning across many days; several design entries include markdown image links (![](...)) illustrating the work.",
+    "build_justification": "The journal includes build-related text about 3D printing, soldering switches and diodes, assembly, and firmware debugging, but the photos in those build entries use HTML <img> tags rather than markdown ![](...) syntax, so no build images in the required ![](...) format are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lordbagel42/turing-split-keyboard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal describes digital design work (using Ergogen, creating schematics, routing the PCB, Excalidraw redraws, and PCB layout/CAD planning) and includes multiple images of schematics and PCBs (OG-schematic.png, new-schematic.png, final-pcb.png, pcb-silkscreen.png).",
+    "build_justification": "There is no description of physical build steps like soldering, assembly, or firmware flashing; the entries focus on PCB routing and design, and the images are of schematics/PCB rather than documented assembly steps."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Niqtan/Hilaw/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content (power schematics, PCB layout, CAD work, and power calculations) across multiple entries and includes several embedded images referenced as screenshots of schematics and PCB/CAD (e.g. Screenshots/1.png, Screenshots/2.png, Screenshots/3.png, Screenshots/4.png, Screenshots/5.png, Screenshots/6.png).",
+    "build_justification": "The journal also describes physical build activity and firmware work (assembly, PCB assembly troubleshooting, cutting traces, desoldering components, flashing and testing firmware) and includes photos/screenshots taken during those build steps (e.g. Screenshots/10.png–13.png, Screenshots/14.png–20.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Niqtan/Pagtingin-to-Highway/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content — component selection, schematic sessions, KiCad testing, PCB layout and panelization, and CAD for the glasses frame (Entries #6, #7, #9-#14). Design-related images are included alongside those entries (e.g., Screenshots/image-2.png for CAD and Screenshots/Screenshot 2025-06-17 221918.png for schematics).",
+    "build_justification": "The journal documents physical build work and firmware — breadboard prototyping, firmware FSM work, soldering, enclosure assembly attempts, and repeated flashing/debugging attempts (Entries #15, #17-#24). Build-related photos accompany these sections (e.g., Screenshots/viber_image_2025-06-27_18-02-09-285.jpg and Screenshots/image-20.jpg showing unit tests, parts, and soldered boards)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/WilliamPrime/Kb00-Cursed10/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content describing keyboard layout work, a KiCad schematic, PCB routing, and CAD for the plate and case. Those sections include multiple inline images (layout screenshots, the KiCad schematic, and CAD renders) illustrating the digital design.",
+    "build_justification": "The journal documents physical build and firmware work, including populating the plate, switch alignment, stabiliser issues, soldering remarks, and firmware/flashing with KMK/POG. The build section includes photos of the populated plate/switches that accompany the assembly text."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/BarjunM/rocket_pcb/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text describing component selection (MPU6050, BMP280, ESP32, power choices), PCB footprints, routing, and 3D PCB work (July 18, July 23, July 24). Multiple images accompany those sections (e.g. /assets/maincomputerdiagram.png, /assets/servosdiagram.png, /assets/3dpcb.png) showing diagrams and PCB renders.",
+    "build_justification": "The journal documents physical build and bring-up activities including soldering/assembly, power bring-up, continuity checks, and firmware/sensor validation (Aug 8–10). Build-phase images are present (e.g. /assets/soldering1.jpg, /assets/soldering2.jpg, /assets/finished_pcb.jpg) showing the soldering and assembled board."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/espcaa/led-system/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal includes planning text listing a power supply, MCU, and MOSFETs and mentions a schematic/PCB (\"Diagramm!!!!\" and \"made the pcb ofc\"). It also embeds images that appear to be a schematic/diagram and a PCB layout, satisfying the design image requirement.",
+    "build_justification": "There is no text describing physical build steps (soldering, assembly, enclosure work, or firmware flashing), and no images depicting a physical build or assembly, so build text and build images are not present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Valder077/deskmate/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit design-phase content describing schematics, PCB layout decisions, wiring choices, and CAD work (entries on 8 July, 9 July, 17 July). It includes design images such as schematic.jpg, pcbdesk.jpg and CAD images (bottom.jpg, top.jpg, full.jpg, deskcomponent.png).",
+    "build_justification": "The journal documents build-phase activity including parts purchasing, soldering attempts, manual wiring, firmware development, painting, wiring of keyswitches, and troubleshooting (entries from 2 Aug onward). It includes build images like basepic.jpg / basepic2.jpg / evthpic.jpg, smilepic.jpg, wirepic.jpg, timerpic.jpg, animpic.jpg and wrongpic.jpg showing actual hardware and wiring."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/rivques/the-matrix/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text: part selection and BOM, schematic decisions, PCB footprint/layout iterations, layer/routing decisions, and Onshape/CAD work. Those design sections are accompanied by layout/screenshot images (KiCad/PCB placement screenshots) showing the PCB and module layouts.",
+    "build_justification": "The journal includes detailed build-phase text describing physical assembly, 3D prints for jigs, soldering sequences, harness wiring, firmware development and PIO/DMA debugging and testing. Multiple photos of soldered modules and test photos (e.g., assembled boards, close-ups of soldered resistors, IMG_2729/IMG_2731) appear alongside these build entries."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cheyao/inkbadge/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit design-phase text (copied rp2350a schematic, connector pinout, Adafruit example schematic, PCB layout and outline), and includes multiple design images such as the schematic/PCB screenshots (hc-cdn image links and the Adafruit schematic).",
+    "build_justification": "The journal includes build-phase text stating the programmer is done/finished, and shows corresponding build photos (img/img4.png and img/img5.png) directly adjacent to those build entries."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Kiya86/Rocket-Project/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The Dev Log describes digital design work including Fusion 360 modeling of the nose cone and servo mounts, RockSim altitude estimates, and design of fin/servo mounts and bulkheads; those design weeks include several inline images showing the CAD/printed parts and design iterations.",
+    "build_justification": "The Physical Build section explicitly describes 3D printing parts, fiberglassing the outer skin, prototyping and producing a PCB, and painting the rocket, and includes multiple photos (e.g., IMG_6472, IMG_6528, IMG_6609, IMG_6608, IMG_6600, IMG_6532) documenting the physical build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Hex-4/glyph/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase writing about schematic and PCB work (KiCad footprints, routing, TRRS/UART wiring), CAD/case work (OnShape plate and case modelling), and layout planning (KLE/Figma), and includes multiple accompanying images such as PCB editor screenshots, routing snapshots, and OnShape/CAD renders demonstrating those steps.",
+    "build_justification": "The journal also documents physical build and firmware work (SMD/THT soldering, assembling hotswap sockets, Pico flashing, KMK/QMK firmware development, debugging and reworks) and includes photos from soldering/assembly sessions and photos of populated PCBs showing the build progress and debugging."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DominicTYLau/BattleBots/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The Planning & Designing section contains substantial digital design content including BOMs, high-level and power schematics, CAD layouts, and weapon/chassis design iterations, and includes multiple inline images (e.g., Images/Ideas/ideas.jpeg, Images/Schematic/High_Level.jpeg, Images/Schematic/Power.jpeg, various Images/CAD/*.png).",
+    "build_justification": "The THE BUILD section describes physical build activities such as 3D printing, soldering, wiring, ESC debugging, assembly, and drilling, and includes several build images (e.g., Images/Build/wires.jpeg, Images/Build/motors.jpeg, Images/Build/circuit.jpeg, Images/Build/bot1.jpeg, Images/Build/drilling.jpeg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/fengyuan66/Highway-FlightSim/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing schematic drawing in KiCad, selecting symbols, Fusion360 3D modelling of the FCU/front panel, hole and pillar layout, and 3D-print preparation. It also embeds multiple design-related images such as the KiCad library, generic pin symbol, completed schematic diagram, and Fusion360 screenshots of the FCU and casing.",
+    "build_justification": "The journal includes detailed build-phase text about physical assembly and wiring: soldering Dupont wires to KD2-22 switches, resistor selection, wiring 7-segment displays and rotary encoders, and configuring Mobiflight. It also includes build-related images like the kitchen soldering station, a soldered button, and the wired panel after assembly."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/awesomebrownies/cyberdeck/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content — e.g., rough schematics, Onshape modeling/CAD work, KiCad schematic and PCB creation — and multiple embedded screenshots (Onshape/KiCad screenshots and schematic images) are included throughout the logs.",
+    "build_justification": "The journal also includes build-phase descriptions such as 3D printing iterations, assembly with heatset inserts, and firmware flashing for the RPi5, accompanied by photos of prints, assembled parts, and the finished device."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/meepodeep/ErgoDecks/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (e.g., 5/23 describes designing the PCB and selecting the MCU, 5/24 describes designing the case in Fusion and updating the PCB/BOM). Those design entries include inline images (two images on 5/23 and two images on 5/24).",
+    "build_justification": "The journal includes build-phase text describing physical assembly/soldering and firmware work (e.g., 6/23 describes soldering switches/diodes/MCU and 6/25 describes replacing MCUs and writing a ZMK config). The 6/25 entry includes three inline images showing the assembled/working keyboard."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/meepodeep/ModuDeck/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content (PCB design, CAD for the case, mounts, module templates, port sizing and finalization) described across multiple entries. Those design entries include inline Markdown images (for example the 5/22 PCB images and several CAD/mount images on 5/25–6/3).",
+    "build_justification": "The journal also documents physical build activities (soldering the battery module, assembling the keyboard, flashing QMK firmware, installing/replacing the BMS, mounting driver boards, and final assembly). Several build entries include Markdown images showing the physical work (for example the 6/24 battery soldering images and the 6/26 keyboard image)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DinosaurPotato534/scuffedMP3/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit digital design content — multiple references to schematics, PCB routing, component selection, and CAD/case modeling (e.g., “schematic is done”, “Routing done”, “Cadded the case”). It also includes several design-related images such as the initial prototype image, schematic images, the routed PCB screenshot, and a 3D/case render.",
+    "build_justification": "The journal includes physical build text describing soldering, desoldering, assembly issues, part replacement, gluing the case, and final assembly steps (e.g., “I got to work on soldering... had to desolder it like 10 times”, “gluing the case together”). It also contains build photos in the assembly section such as the TTP229 close-up, the case photo, and the final MP3 player photo."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ila-io/Sliphub/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-oriented text describing USB hub planning, schematic creation, PCB routing, and Fusion CAD case design. Design images are present (e.g. journal_photos/schematic.png, journal_photos/pcb_start.png, journal_photos/pcb_3d.png, journal_photos/pcb_finished.png, journal_photos/cad_assembled.png).",
+    "build_justification": "The journal includes build-oriented text about receiving the manufactured PCB, case printing status, and assembling the hub into the case. Build images accompany this (e.g. journal_photos/hubpcb.jpg and journal_photos/hub+case.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/NotARoomba/CyberCard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal includes multiple paragraphs describing schematic creation, wiring, PCB layout choices, and using Figma and KiCad to create artwork and copper/mask layers, and it embeds several images (assets/schematic.png, assets/pcb_start.png, assets/figma.png, assets/pcb_final.png) that illustrate the schematic and PCB design work.",
+    "build_justification": "There is no text about physical assembly, soldering, or firmware in the journal, and no images appear to document a physical build—all images relate to the design/CAD/art workflow."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jaydenaleung/astrotrackerH1/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase content: research and planning, multiple CAD iterations, gear ratio calculations, and PCB schematic/routing notes (e.g., June 11–25 entries). Multiple CAD and schematic images (screenshots of Onshape assemblies and KiCad schematics) are embedded in those sections.",
+    "build_justification": "The journal also documents build-phase activities: 3D printing, physical assembly, soldering, electronic prototyping, and firmware coding (July–August entries). Several photographs of the assembled/mechanical parts and electronics (IMG_4080/4081, IMG_4167, IMG_4170, IMG_4185, etc.) appear in those build-related sections."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Anayjain1129/busy-card/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The log describes digital design work (schematic/PCB planning and use of EasyEDA, library/footprint issues, and 3D PCB renders), and includes multiple design-related images such as /images/easyeda.png, /images/sch_1.png and /images/PCB.png.",
+    "build_justification": "The entry titled 'Building' discusses assembly/PCBA decisions and receiving parts, and includes final-project photographs (images/1.jpeg through images/5.jpeg) showing the physical build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Anayjain1129/ani-pad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text describing the schematic, PCB layout, 3D parts, and CAD work (Onshape) and includes design images such as /images/sch.png, /images/pcb.png, and /images/3d_pcb.png.",
+    "build_justification": "The journal includes build-phase text covering firmware work and physical assembly/soldering of diodes, MCU, RE, and switches, and contains build images including /images/firmware.png and final product photos /images/1.jpeg through /images/5.jpeg."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/vuktacic/cuber/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design discussion (Fusion 360 CAD, gear ratio selection, pinion/pinion tolerance tests, Kicad schematic, wiring schematic, and arranging 6 gearboxes into an assembly) and includes multiple CAD/diagram images (e.g. journal/kin.png, journal/image.png, and other CAD images).",
+    "build_justification": "The journal documents physical build activities (3D printing, supergluing, gearbox assembly, wiring, power supply work, servo testing, sensor mounting, and calibration/firmware work) and includes many photos of printed parts and assembled hardware (e.g. journal/20250612_201107.jpg, journal/20250618_082257.jpg, and wiring/box photos)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anirudh12032008/poweritup/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes explicit design-phase text describing component selection, schematic creation, PCB design, and BOM optimization (e.g., 'Created schematic, PCB and BOM' and PCB/schematic narrative). Multiple inline images of the schematic and PCB renders are included in that section, satisfying the image requirement.",
+    "build_justification": "The journal contains build-phase text describing final assembly steps, wiring, soldering, and testing (Aug 6 final build) and includes several photos (photo_... images) of the physical assembly and wiring in the build section."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anirudh12032008/animusic/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": false,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The July 21 and July 22 entries describe schematic/CAD work in EasyEDA, RC oscillator design, PCB layout and BOM decisions, so design text is present. Images appear in those design entries but they are inserted with HTML <img> tags rather than Markdown ![](...) syntax, so they do not satisfy the required Markdown-image condition.",
+    "build_justification": "The Aug 7 entry describes physical assembly and soldering on a vero board, component placement fixes, and resistor selection for RC circuits, so build text is present. That section includes two images using Markdown ![](...) syntax, so build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anirudh12032008/ECG/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-related text describing component selection, BOM, dimensions, and 3D case/CAD work (entries on June 30, July 1, and July 2). It also includes multiple images associated with those design entries (e.g., BOM and several 3D-case images).",
+    "build_justification": "The journal contains build-related text describing firmware creation, wiring/connection tests, and physical assembly (entries on July 3, July 24, and Aug 4). It also includes photos showing the assembled/connected device in the July 24 and Aug 4 entries."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/NotARoomba/Luma/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing schematic design, PCB layout choices, and CAD case modeling (July 16–19), and includes several design-related images such as /assets/schem_usb.png, /assets/new_schem.png, /assets/old_pcb.png, the CAD images (/assets/cad_*.png), and /assets/new_pcb.png.",
+    "build_justification": "The journal also describes physical construction details (August 6) including fitting issues, Dremel modification, spray painting, assembly, and mentions firmware/test code, and includes build photos (/assets/acrylic_panes.jpg, /assets/spray_paint.jpg, /assets/final_product.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anirudh12032008/hcheart/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-oriented entries describing KiCad/EasyEDA schematics, PCB layout and routing, DXF/Fusion editing, and 3D case/CAD work (June 20–25). Those entries include several embedded images of schematics, PCB previews and case renders.",
+    "build_justification": "The journal has a dedicated Build section (Day 6–9) with detailed text about soldering, hardware troubleshooting (ESP32 pin mismatch, power rail fixes, TP4056 repair), assembly and firmware work. That section includes multiple photos showing the physical PCB and assembly process."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anirudh12032008/devrover/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries that describe digital design work — PCB/schematic work and extensive CAD/3D modeling (EasyEDA, Fusion 360, BOM creation, PCB layout). These design-focused entries include inline images of the PCB and 3D models (e.g. images labeled 1,2,3, p1, p2 and many Fusion360/3D model screenshots).",
+    "build_justification": "The journal also includes detailed build-phase text describing physical assembly, wiring, firmware, power troubleshooting, and testing (from the July 9-10 entry through Day 17). Those build entries include multiple inline photos showing the physical prototype, wiring, and assembled rover (e.g. IMG_20250711_085907, various photo_* and dev images)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/mathisfun2048/PassPad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-focused text describing initial sketches, BOM, PCB schematics, GPIO mapping, PCB layout, and CAD case design. Those sections include multiple images (Initial Sketch, schematic image, PCB screenshot, and CAD case images) supporting the design content.",
+    "build_justification": "The journal includes build-focused text about firmware development (CircuitPython, HID handling, error handling) and physical assembly/soldering notes. Build content is accompanied by images such as the firmware/library screenshot and a photo of the assembled device (IMG_5140) demonstrating the physical build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ksgat/combat-robot/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains explicit design-phase text describing CAD sessions, iteration between V1 and V2, wheel/hub materials, wiring diagram checks and formalized goals, and includes multiple embedded images showing the CAD/design iterations and the TPU absorber.",
+    "build_justification": "The journal includes build-phase text describing an actual build day, assembly notes (prints fitting together), material choices (Gorilla Glue for wheels), a burnt ESC and using controller boards from servos as a workaround; however, there are no images located alongside or within the build-day/assembly section."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bernininini/bean-cake/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal includes explicit design/CAD/schematic work (e.g., \"Caddding the case\", \"Using KiCAD to do the schematics\", and \"re-cadded the design of the bot\"), and there are multiple images directly following those design entries (images on May 28 and August 3).",
+    "build_justification": "The journal contains build-phase descriptions such as printing PLA/TPU parts, attaching wheel connectors and a button, wiring the ESP32-CAM/ESP32-32D, and finishing motor/firmware work (Aug 5–7), but there are no images accompanying those build entries."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bernininini/bean-cake/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase content such as CAD/case work, KiCAD schematics, BOM updates, and re-cadding the bot (May 28, June, and Aug 3 entries) describing hardware placement and wheel design. Design-related images are included (images after the May 28 entry and the images attached in the Aug 3 block).",
+    "build_justification": "The journal includes build-phase content describing physical assembly and firmware work — printing PLA/TPU parts, attaching wheel connectors and buttons, wiring the ESP32-CAM and coding (Aug 5–8 entries and final coding notes). Images are present in the same Aug 3/Aug entries (screenshots/photos associated with the camera/design/build), providing visual evidence of the build/firmware work."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TristanItoh/hybrid-kart/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit design-phase content: CAD modeling, BOM decisions, and design iterations (Day 1–3 and a 'Design' subsection on Day 22) describing proportions, steering/seat choices, and parts selection. Those sections include CAD screenshots and design images (e.g., Screenshot 2025-06-06 231950 and other early CAD images), satisfying the requirement for design images.",
+    "build_justification": "The journal contains extensive build-phase text describing hands-on work: cutting pipes, pipe-notcher drilling, welding, engine mounting, sprocket/chain work, axle assembly, and wiring (multiple entries from June 13 onward through August). Several photos document the build (e.g., the Predator 212 engine image, welding/frame photos, axle and sprocket photos), distinct from the earlier CAD/design images."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/mathisfun2048/PaperCam/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains planning and digital-design content including a detailed BOM, schematic/footprint work in KiCad, PCB layout screenshots, and CAD case design discussion. Multiple images are embedded showing the schematic, footprint selections, PCB views, and CAD renders.",
+    "build_justification": "The journal describes physical build and firmware/testing steps (connecting LBO pin, writing/porting software to the Pi, preparing to print and revise PCB) and reports that the device was physically assembled and tested. Several photos at the end show the physical build and assembly process."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Sn3akySqu1d/PuzzleClock/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial design-phase text describing module selection, schematics, custom symbols, Fusion 360 case iterations, wiring diagrams and CAD updates; multiple images (e.g. Images/image-1.png, Images/image.png, Images/image-2.png, Images/image-3.png, Images/image-7.png, Images/image-8.png, Images/image-9.png) are included alongside these design descriptions.",
+    "build_justification": "The journal includes build-phase text detailing breadboard testing, soldering header pins, troubleshooting the LCD, switching from an Uno to a Mega, printing and assembling the case and firmware testing; several build images (e.g. Images/image-11.png, Images/image-13.png, Images/image-12.png, Images/image-10.png) are present in the Build section."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Firestorm108/AutoPlant/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-related entries describing digital work such as Fusion 360 modeling, updated wiring diagrams, BOM completion, and layout/control-panel changes (e.g., June 13 entry and June 12 wiring diagram). Those entries are accompanied by design images like the April 5 diagram and the 'updatedWiringDiagram' and Fusion 360 screenshot.",
+    "build_justification": "The journal documents physical build activities including 3D printing, JB Weld assembly, sanding, spray painting, motor/filtration changes, wiring, and final assembly (e.g., April 29, May 23–24, June 3, August 7). Those build steps are illustrated with images such as IMG_2567/IMG_2568 (welded frame), IMG_2688_2 (painted frame), and IMG_3277/IMG_3289 (final wiring/assembly)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Heinrich-XIAO/adhdgym/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes explicit digital design descriptions (choosing the ESP32-C3 XIAO, PCB made small, CAD case design for the PCB and ultrasonic sensor, and an exploded view) and contains multiple images next to those entries (e.g., 1749687646-wayshot, 1749866180-wayshot).",
+    "build_justification": "The journal documents physical build activity (soldering, installing libraries, writing/debugging firmware and BLE/serial fixes) and includes a photo of the assembled/soldered device (Photo du 2025-06-29 20-33-00 358640) associated with those build notes."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JeffreyWangDev/LED-tower/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital-design description (Onshape CAD work for the tower and acrylic pieces, PCB schematics/layout in EasyEDA, USB-PD IC selection, and CNC design changes). Multiple images are included alongside those design entries (Onshape screenshots and PCB/layout images).",
+    "build_justification": "The journal documents physical build activity (wood prototype testing for mounting, laser-cutting 32 acrylic pieces, and final assembly of the base with PCB, antenna, power socket, and bolted acrylic panels). Photos of the prototype, laser-cut acrylic, and assembled pieces accompany those build notes."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/regular030/SaturnArm/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit digital design content such as PCB layout/connector updates, BOM listings, CAD/3D-printed part redesigns (bearing holders, printable nuts) and notes about hole placement and controller placement; multiple image links are embedded in those design-related entries (e.g., images after the May 26–28 and May 29 entries).",
+    "build_justification": "The journal documents physical build activity including arm/claw assembly, soldering of PCBs, firmware updates, 3D-printed replacement parts, and hardware testing/failures (burned Pi, stripped gears), and includes build-related imagery (for example the image at the start of the Aug 1–20 hardware testing section)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AayanShaikh007/X-70-HOTAS/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design and planning text (CAD modelling of joystick and throttle, component placement, PCB/matrix planning, and design aims) across multiple dated entries. Multiple Markdown images are embedded alongside those design entries showing CAD screenshots and previews of the throttle/joystick assemblies.",
+    "build_justification": "The journal includes build-phase text describing 3D printing, assembly, soldering/wiring of switches, and testing in FreeJoy/X-Plane/MSFS. Several Markdown images are included in the later entries that depict printed components and assembled hardware."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/mathisfun2048/Gamepad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content — planning and BOMs, wiring diagrams, CAD case work, and custom PCB/schematic work — and includes multiple embedded images (wiring diagram, CAD screenshots, schematic and PCB images).",
+    "build_justification": "The journal documents the physical build and firmware/software steps, mentioning assembly, soldering a ground wire fix, and RetroPie setup, and includes several photos from the build process (IMG_5118 through IMG_5134)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/PonderSlime/Pyp-Boy/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (Onshape CAD modeling, adding knobs, latch tolerances, heatset holes, BOM/manufacturing research, and a rust TUI), and includes several CAD/screenshot images (e.g., 2025-05-23, 2025-05-26, 2025-06-27, 2025-07-02).",
+    "build_justification": "The journal explicitly documents physical assembly work (’Case Design Fixes and Assembly’, ‘Finished Assembly’, getting parts and putting everything together) and includes photos associated with that assembly (images under the July 16-20 and July 20 entries such as the hyprshot images and IMG_0210–IMG_0214)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/idksarah/toro-board/main/JOURNAL.MD",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-focused text describing layout research, KiCad schematics, PCB layout work, part footprint setup, and Onshape CAD/plate design. Multiple images accompany these design steps (e.g. journalPics/alice.png, journalPics/schematic1.png, journalPics/pcb1.png, journalPics/case1.png, journalPics/case1.2.png), demonstrating design-related visuals.",
+    "build_justification": "The journal contains build-focused text describing physical work such as rewiring, soldering diodes and switches, parts arrival, and firmware work (KMK testing). Build steps are illustrated with images (e.g. journalPics/test1.png, journalPics/irl1.png, journalPics/irl2.png, journalPics/irl3.png) showing the assembled and tested hardware."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TristanItoh/Gobber-Voice-Assistant-Robot/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes explicit digital design and planning: Day 1 and Day 5/6 describe CAD work (Fusion360 attempt, Womp and Tinkercad), part selection, BOM, and a wiring diagram. Design-related images are included (sketch of the speaker bot, wiring diagram, and CAD/Tinkercad/Womp screenshots).",
+    "build_justification": "The Assembly section (Day 7–10) contains hands-on build details: soldering the speaker to the amp, wiring the ESP32, microphone troubleshooting and soldering, firmware/networking changes, and display hookup attempts. Build-related photos are present (final device photos appended in the Display/Day 10 section)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/danieliscrazy/SlackPager/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains planning and digital-design material (PCB decisions, 3D CAD/case modeling in TinkerCAD/Onshape, and PCB/gerber discussion). Multiple images accompany those sections (TinkerCAD screenshots, PCB front/back renders, and case/frame models).",
+    "build_justification": "The journal includes build-phase descriptions (wiring, soldering, debugging firmware, hooking up display/piezo, and assembly) and shows photos/screenshots from the build (working demo code/webhook images, soldered button PCB photo, and a final product photo)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheEternalComrade/The-Prince42/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing layout decisions, no-LED/OLED rationale, wiring diagrams, DXF import into Fusion 360, plate and case/CAD design, and microcontroller mounting plans. Those design entries are accompanied by multiple images (layout photo, wiring diagrams, DXF/CAD screenshots, and sketches).",
+    "build_justification": "The journal includes build-phase text covering physical assembly (adding keycaps and switches), firmware development and troubleshooting, and final assembly/debugging notes. These build entries include images such as photos of switches/keycaps, firmware/compile screenshots, and final build photos. "
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheEternalComrade/The-Prince54/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design and planning content (layout planning, KLE, KiCad schematics/PCB work, plate generation from ai03 and Fusion360 case CAD) across multiple entries. It also includes several design-related images such as KLE/PCB/plate screenshots and imported DXF/AI03 images (May 15–19 entries).",
+    "build_justification": "The journal documents physical build activity including soldering, assembly, desoldering, firmware/MCU work and troubleshooting of split halves. It includes multiple photos of the assembled boards, repair wiring and the 3D-printed plates/cases from the June entries (e.g., June 19 and June 25)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jaydenaleung/portcullis/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-oriented text describing CAD work, linear actuator and rotational device designs, and PCB/schematic planning (sections: 'July 1: Research', 'July 1-7: CAD', 'July 7: PCB and Wiring', 'July 8: Additional CAD'). Multiple design images and schematic/PCB screenshots (e.g., CAD screenshots and the schematic/PCB images) are included alongside those descriptions.",
+    "build_justification": "There is detailed build-oriented text covering physical assembly, soldering/wiring, firmware coding, and debugging (sections: 'July 27-August 1 - Putting It All Together, Mechanically', '...Electrically', and '...In The Code' / 'Finally'). Multiple photos of the assembled hardware and wiring (e.g., IMG_4029, IMG_4031, IMG_4025–IMG_4048, IMG_4044) and a firmware screenshot accompany those build descriptions."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Outdatedcandy92/CurtainOpener/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes explicit design and planning content (project plan, BOM, CAD work, and a wiring diagram) and contains multiple CAD/planning images embedded in the design sections (e.g., CAD screenshots and BOM photos).",
+    "build_justification": "The journal describes physical assembly steps (3D printing parts, mounting them on the wall, and writing firmware/web interface) and includes real-life photos of the motor, idler, enclosure and a firmware screenshot in the build section."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Pnav22/MechaSlate/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains detailed digital design descriptions—KiCad practice PCBs, initial sketches, schematics, PCB routing, plugin use, and CAD case design—across multiple entries. Those design entries include many inline images (e.g. PCB/schematic screenshots, sketches, PCB screenshots, and CAD front/back images) supporting the design work.",
+    "build_justification": "The journal documents physical assembly steps and observations (manual switch/keycap insertion, final assembly notes, and an explicit 'IRL build!' entry). The build-related sections include multiple photos of the assembled hardware (WhatsApp images and photos of the completed keyboard)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/roc-ket-cod-er/CustomDevBoard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content: schematics, PCB layer planning, USB‑C circuitry, ESP32/RP2350B schematic work, dense routing and 3D CAD modelling throughout (e.g., many entries describing layer stacks, routing, and component placement). It also embeds numerous design images/screenshots of schematics and PCB layouts (for example the USB/ESP32 schematics and multiple PCB render screenshots).",
+    "build_justification": "The later entries describe physical build, testing and firmware/debugging activities including receiving the boards, debugging the UART/USB bridge, testing GPS, SD card and displays, and measuring charger current. Those build-oriented days include images within their entries (for example the schematic/debug images shown in the troubleshooting days such as the image used when describing the LCD/SD pin mistake and the GPS debug image)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Firestorm108/Reed-Machine/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing BOM creation, PCB layout and routing, wiring diagram, and 3D case/CAD refinements. Those entries are accompanied by several inline images (e.g., PCB/layout and case screenshots) that illustrate the design work.",
+    "build_justification": "The journal includes build-phase descriptions of 3D printing, assembly, wiring, and troubleshooting (including a battery short and final testing), and these sections are supported by photos (IMG_3233, IMG_3234, IMG_3236, finished-device images) showing the physical prints, wiring, and completed project."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/its-kronos/The-Breadboard-Plus/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing schematic creation, footprint making, component selection, PCB routing decisions (including differential pair/USB impedance and ESD part selection), and placing artwork; these sections include multiple embedded images of schematics, footprints, and PCB/layout views. The included images (schematic/footprint/PCB screenshots) accompany the design descriptions, satisfying the requirement for design images.",
+    "build_justification": "The journal documents build-phase activity including firmware work (flashing CircuitPython/MicroPython, implementing a PIO UART bridge, debugging baud rates and the WROOM EN pin) and functional testing; several embedded images show terminal output, flashed-device/test photos, and firmware-debug screenshots. These images are located in the firmware/testing entries, so build images are present alongside the build text."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JoelBiswas/r2d2/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design descriptions (Onshape CAD work for the dome, body, legs, feet, assemblies, a KiCAD wiring schematic, parts list, and dimensioned polycarbonate panel) across many days, and includes multiple embedded design images (e.g., Day One Dome, Day Two Body, Day Seven Wiring).",
+    "build_justification": "The journal includes build-phase descriptions (3D printing parts, assembling the robot, dealing with threaded inserts, and writing firmware for motor control) and includes a photographic image of the assembled robot (IMG_9884) associated with the assembly/firmware entry."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheTridentGuy/ht-link/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing schematic and PCB work, component selection (CM108B), datasheet reading, and PCB submission/iteration. Several design images are included (images/pcb1.png, images/pcb2.png, images/pcb3.png, images/sch1.png, images/sch2.png) showing PCB and schematic visuals.",
+    "build_justification": "The build/testing chronicle describes physical assembly and testing steps such as connecting 3.5mm/2.5mm jacks and adapters, setting DIP switches, wiring power/PTT, and using Audacity to record audio. A photo of the physical setup (images/20250807_095852.jpg) is included in the build section."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JeffreyWangDev/mini-fc/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains extensive design-oriented text: component selection, schematics, PCB layout iterations, and a design link; it also includes multiple markdown images (e.g. ![image](https://github.com/user-attachments/...)) showing PCB and schematic layouts.",
+    "build_justification": "The journal includes build-related text describing assembly actions (desoldering chips, soldering the battery cable, fixing an ESC) on Day 12, but the photos in that section are embedded with HTML <img> tags rather than the required markdown ![](...) image syntax, so no build images in the expected format are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/GalaxyGamingBoy/6502-Microcontroller/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content (schematics, memory maps, PCB revisions, KiCad/Eagle workflow and CAD case/frame design) across multiple sessions (e.g. Sessions 2–11). It also includes Markdown schematic/PCB images such as 'Journal Image 1' and several PCB/CAD screenshots (e.g. PCB R3, Frame Drawing) embedded in those design-focused sections.",
+    "build_justification": "The journal documents physical build and firmware work (unboxing parts, wiring a Pico flasher, soldering fixes, ZIF socket wiring and iterative debugging) in later sessions (e.g. Sessions 12–17). Those build sections include Markdown photos of the assembled board and soldering work (for example 'PXL_20250807_083240882', 'PXL_20250807_083246797', and other board photos)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/KaiPereira/PR1SM/master/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-focused sections (PCB schematic, PCB wiring, CAD design, rendering) describing schematics, footprint choices, routing strategy, ground/power fills, and case CAD. Those sections include several standard Markdown image links (e.g., ![](journal/Pasted%20image%2020250718013549.png)) showing the schematic, PCB layout, and CAD models.",
+    "build_justification": "Day 5 'Assembly' describes physical build steps (tinning and soldering neopixels, diodes, Pi Pico, switches, keycaps, and firmware upload), so build text is present. The images in the assembly section are written as Obsidian-style embeds (![[...]]), not standard Markdown ![](...) links, so they do not satisfy the required image format and build_images_present is false."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/udu3324/slider-synth/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit design-phase text in the June 23, June 24, and June 25 entries discussing schematics, circuit features (USB‑C flashing, power, UART, buttons), placement, routing, and CAD/case design. Those design sections include multiple images (e.g., schematic and PCB/CAD photos) embedded in the corresponding entries.",
+    "build_justification": "The August 4–6 entries describe physical build activities such as PCB arrival, manual solder paste application, assembly, soldering a jumper to fix an ADC pin, debugging, and firmware behavior. Those build/debugging entries also contain several images showing the assembled PCBs and workbench setup."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/xsollwa/remote-assist-hand/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content describing CAD work, KiCAD schematics/PCB design, wiring diagrams, BOM updates, and enclosure/layout planning (e.g. entries from June 6 through June 24). It also embeds multiple design images and sketches such as the hand sketches on June 6 and CAD/PCB images (e.g. Progress Images/PCB_Design.png and Arm_Wiring_Final.png) that illustrate the digital designs.",
+    "build_justification": "The journal includes build-phase text about 3D-printing parts, ordering components, assembling the arm, soldering electronics, firmware debugging, and calibration/testing (notably in July and August entries). It also contains build images showing the assembled arm and hardware issues/replacements (e.g. Progress Images/Complete_Arm.jpeg, the user-attachment photos from July 11, and Progress Images/Broken_Load_Cell.jpeg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/xsollwa/remote-assist-hand/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes substantial digital design content (brainstorming, CAD sketches, KiCAD wiring diagrams and PCB design, OnShape integration, BOM and casing design) described across multiple entries, and those sections include embedded images such as hand sketches and CAD/PCB screenshots.",
+    "build_justification": "The journal describes physical build activities (3D printing parts, assembly of the arm, soldering, wiring to a custom PCB, firmware and web UI development, testing and debugging) and includes build-related photos such as the fully assembled arm, soldering/testing images, and photos of the broken and replacement load cell."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/felixwittwer/homeassistant_automaic_greenhouse/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": false,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal includes substantial design-phase text describing CAD work (importing .stp into Fusion 360, modeling parts, PCB/shield design, KiCad export and PCB mount workflow) and planning for sensor module layouts and enclosures. While many CAD/PCB preview images are present, they are embedded with HTML <img> tags rather than Markdown image syntax (![](...)), so no design images in the required ![](...) form are detected.",
+    "build_justification": "The journal contains extensive build-phase text covering physical assembly, soldering, populating and testing the PCB, wiring the electrical box, plumbing/irrigation installation, and ESPHome/firmware configuration. Although numerous photos document these build steps, they are inserted with HTML <img> tags rather than Markdown ![](...) image syntax, so no build images in the required ![](...) form are detected."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Pegoku/Home-Assistant-Control-pad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing schematic and PCB design, component selection, and case CAD work (May 22–25, June 1) as well as earlier planning/sketching (May 18). Those entries include several images in the journal assets (e.g., assets/journal/image-6 through image-13) showing schematics, PCB layouts, and case designs.",
+    "build_justification": "The journal documents physical build activity including soldering the PCB, battery charging tests, firmware development and I2C debugging, and final assembly (July 4, Aug 2–5). Those build entries include photos in the build assets (e.g., assets/build/PXL_20250704_202810597.MP.jpg and other assets/build/*.MP.jpg) showing the soldered board, charging test, and assembly modifications."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Pegoku/LED-Controller-PCB/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "Design text is present where the author describes using KiCad to create schematics and a PCB and redesigning the case (May 17–18). Multiple design-related images accompany this (PerfBoard1.jpg, PerfBoard2.jpg, prototypeCase.jpg, PCB.png, Case.png).",
+    "build_justification": "Build text is present in the protoboard prototype and final assembly entries describing hardware assembly, soldering, and testing (May 16 and Aug 6). Build-related images are included for those entries (ProtoBoard.jpg and PXL_20250806_171544299.MP.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Pegoku/Smart-desk-lamp/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work—mockups, component selection, schematics, PCB layout, and 3D modeling (June 9–17). Those design entries include images (e.g., assets/mockup.jpg, assets/image2.png, assets/image.png and many other design/PCB/3D model images).",
+    "build_justification": "The journal includes build-phase descriptions of soldering, programming/debugging the ESP32, LED PCB assembly, and final case assembly (July 30–August 4). These build entries are accompanied by photos in the build folder (e.g., assets/build/PXL_20250729_172057335.MP.jpg, assets/build/PXL_20250731_155633771.jpg, assets/build/PXL_20250803_175937419.MP.jpg, assets/build/PXL_20250804_173254904.jpg)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Sn3akySqu1d/Envirotector/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial design-related text describing schematics, footprint/symbol creation, PCB layout, and CAD work (importing the PCB into Fusion 360 and iterating cutouts). Multiple design images are included in those sections (e.g., Images/image-5.png, Images/image-6.png, Images/image-2.png, Images/image-9.png, Images/image.png, Images/image-7.png).",
+    "build_justification": "The journal includes build-related text covering soldering, breadboard prototyping, firmware testing/debugging, I2C troubleshooting and final assembly, and it includes build photos (e.g., Images/image-10.png, Images/image-11.png, Images/image-12.png, Images/image-13.png)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RunTheBot/uController/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-focused entries describing PCB layout, routing, adding a boost converter and voltage divider, BOM decisions, and CAD work; these sections are followed by numerous images of the PCB and CAD screenshots, confirming design images are present.",
+    "build_justification": "The journal includes build-related text about firmware (HID), soldering the board, breaking the Nano S3, and bodge-wiring a Xiao, but there are no images associated with these firmware/assembly entries, so build images are not present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RunTheBot/NotAHackPad/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal includes multiple design-related passages (PCB and schematic work, PCB layout, auto polarity-correcting circuit, case design, KiCad iterations) and contains several images placed with those entries showing the board/layout.",
+    "build_justification": "The journal documents build activities (soldering all LEDs and the microcontroller, replacing cracked caps, debugging, bodge wiring, and firmware work with KMK), but there are no images clearly associated with those physical build steps."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Waddle-Penguin/Penguin_Paddle/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing schematics, MCU selection (Xiao SAMD21 -> ESP32-S3), footprint assignment, PCB layout, 3D models and BOM creation. Multiple design-related images are included (e.g., 'Initial Schematic Design', updated schematic/MCU images, and PCB screenshots).",
+    "build_justification": "The journal includes build-phase text describing PCB assembly, soldering, component testing and firmware work (CircuitPython -> MicroPython). Build photos are present showing the assembled board and non-slip pads (e.g., PXL_20250806_034945789 and PXL_20250806_035521508)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Firestorm108/Macrowave/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes multiple design-phase entries (July 4–6) describing BOM/planning, PCB layout, CAD modeling, wiring diagrams and firmware work. Those entries are accompanied by design screenshots and renders (e.g., PCB and CAD images linked on July 5 and July 6).",
+    "build_justification": "The journal includes build-phase entries (August 3–5) describing physical assembly steps like 3D printing parts, desoldering, mains wiring, motor fitting, and final wiring/LED additions. These build entries are accompanied by photos of the physical assembly and finished device (IMG_3106 through IMG_3175 and similar links)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AayanShaikh007/scalars-keyboard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains planning and digital design content describing the schematic, PCB layout, and 3D modeling/CAD of the keyboard (e.g., \"Completed Schematic\", \"Completed PCB\", \"worked on the 3D files\"). It also includes design images such as a low-res schematic preview and a PCB preview image.",
+    "build_justification": "The journal documents physical build steps including wiring, soldering, component assembly, firmware work, and case printing (e.g., \"finished wiring the PCB\", \"soldering the board\", \"worked on the firmware\"). It includes build images showing the wired PCB, soldering photos, a firmware screenshot, and a final case/assembly photo."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Pegoku/Diode-Laser-Cutter/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content: FreeCAD modeling of the frame, templates for 2020 extrusions and linear rails, motor/pulley/idler placement, belt tensioner and laser-head mount design, and final configuration notes. Those design descriptions are accompanied by multiple in-line images (e.g. assets/image-3.png, assets/image-4.png, assets/image-9.png, assets/image-16.png) showing the CAD/models.",
+    "build_justification": "The journal describes hands-on build work including cutting extrusions, 3D print finishing, tapping threads, mounting rails/motors/PSU/controller, soldering/crimping, wiring and firmware configuration (FluidNC). The build sections include many photos under assets/build/ (for example assets/build/IMG-20250722-WA0011.jpg, PXL_20250722_144623442.MP.jpg, share_7046392905535642986.jpeg) documenting the physical assembly and wiring."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/geg-tech/biblicallyaccuratekeyboard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content — PCB and schematic work (KiCad), Fusion 360 CAD modeling of the case/connectors, custom keycap modeling, and BOM/PCB planning — and includes multiple design-related images (e.g., PCB and CAD renders shown on entries like 5/30, 6/5, and 6/9).",
+    "build_justification": "The journal documents physical build and prototyping steps — breadboard/prototype wiring with a Raspberry Pi Pico, firmware testing with QMK, 3D printing, assembly, and finishing (painting/gluing keycaps) — and includes photos of the prototype and assembled PCBs and prints (e.g., images on 5/23, 5/24, 7/6 and the post-build recap)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Badbird5907/thermal-camera/master/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (component selection, schematic design, PCB routing, and case CAD across 5/26–6/4). Several images (KiCad/CAD screenshots) are included on 6/4, supporting the design content.",
+    "build_justification": "The journal describes physical build activities (parts arrival, reflowing parts, hardware/software debugging and bodge wiring on 7/8) and includes photos from that build/debug session, showing the assembled board."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Badbird5907/microkey/master/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes multiple design-focused entries (e.g., creating the schematic and PCB, sourcing a BOM, redesigning footprints, adding edge plating and optimizing traces) and contains images embedded alongside those design entries (e.g., the PCB/schematic and KiCad screenshots).",
+    "build_justification": "The journal documents physical build activity (assembling parts, reflowing components, and developing firmware for the capacitive touch sensor) and includes photos of the assembled boards and hardware after reflow."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Sn3akySqu1d/Squidboard/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content (KiCad schematics, PCB routing and layout, power budgeting, and CAD/case modeling) described across Days 1–5 and 26/7, and includes multiple design images (for example Images/image-1.png, Images/image-3.png, image-11.png, Images/image-14.png).",
+    "build_justification": "The Build section (01/08/2025) documents physical assembly, soldering of switches/diodes/OLED/Pico, iterative front-plate fitting, 3D printing, and firmware debugging, and includes several build images (for example JournalImages/image-16.png, JournalImages/image-14.png, JournalImages/image-18.png)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hephaestushex/HexBoard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content (keyboard layout, MCU selection, schematics, PCB routing, and CAD/case design) spanning multiple entries (June 9–18). Those design entries include numerous embedded images of KLE/KLE/layout screenshots, KiCad schematics/footprints, PCB renders, and Fusion/CAD renders.",
+    "build_justification": "The journal documents physical build activities (3D printing plates/case, soldering diodes/switches/MCU, assembly, debugging, and firmware building) in the July entries and the June 19 firmware entry. Those build sections include many photos and screenshots (plate/assembly photos like IMG_0788/IMG_0790 series, soldering/board photos, and firmware/build output screenshots)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Sn3akySqu1d/Soundalyser/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains detailed design text describing schematic creation in KiCad, custom footprints, PCB routing, and Fusion360 case/CAD work as well as firmware planning; multiple inline images accompany this (e.g. Images/image-4.png, Images/image-2.png, Images/image-7.png, image.png, Images/image.png, Images/image-5.png).",
+    "build_justification": "The build section documents physical prototyping, breadboard testing, soldering of components to the PCB, and 3D printing/iteration of the case, with several photos showing the breadboard, soldered board, and final printed case (e.g. Images/image-8.png, Images/image-9.png, Images/image-10.png, Images/image-11.png)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Badbird5907/picoplus/master/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (reading RP2350 docs, schematic creation, PCB layout/routing, footprints and BOM planning). Several KiCad images are included alongside those entries (e.g. kicad_*.png screenshots) showing the schematic/PCB work.",
+    "build_justification": "The journal documents physical build activity (ordering parts, buying a hotplate, reflowing the PCB and remarking on 0201 components). Photographs of the assembled/reflowed boards are included (the github user-attachments images) supporting the build phase."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Kings-Indian/Ender3Upgrades/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design and planning text (CAD modeling, layouts, fillets, alignment tabs, top cover and screen/camera mount design, LED rail design). Multiple design images are embedded throughout (e.g., Layout, Fan Case, Fillets, Top Cover, LED Rail, camera mount sketches) that illustrate the CAD and planning work.",
+    "build_justification": "The journal also documents physical build steps (printing, soldering, wiring, assembly, Klipper print-stop workflow, and getting LEDs and camera working) and includes photos of the assembled case and working LEDs/camera, confirming build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Kings-Indian/Put-Me-Down/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains planning and digital design content such as initial skeleton design, board dimensions, toolhead and T‑nut design, counterbalance calculations, and product/hardware selection. These design sections include multiple inline images (CAD/assembly diagrams and photos) illustrating the designs.",
+    "build_justification": "The journal also describes physical build actions including drilling attempts, 3D printing parts, and installing the printed endcaps, and shows photos of printed parts and the installed assembly, providing images that correspond to the build work."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/udu3324/stm32pe-midi/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit digital design content describing schematics, KiCad PCB layout and routing, CAD/assembly work, and planning (e.g. entries on June 16–25 about schematics, PCB layout, routing, and CAD). Those design entries include multiple embedded images showing schematics, PCB previews, and CAD/plate models.",
+    "build_justification": "The journal also documents physical build and firmware work such as sensor wiring and testing, SMD soldering, board assembly, 3D printing, and firmware development (e.g. June 8, July 9–31 entries). Those build entries include multiple photographs of boards, soldering, 3D-printed parts, and screenshots of firmware output and tools."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheTridentGuy/HackPack/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries discussing CAD, PCB layout, and EasyEDA (e.g., \"v1 of pcb layout is complete\", \"back in CAD\", \"added RJ45 passthrough in CAD\"). Those entries include design images such as images/cad1.png and images/cad2.png that illustrate the CAD/PCB work.",
+    "build_justification": "There are build-focused entries describing physical assembly and soldering (e.g., \"I just finished soldering everything together\", \"put in screws\", \"figured out how to mount the board\"). Those build entries include photos like images/mounted1.png and images/20250715_151234.jpg that show the assembled hardware and soldering. "
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ethanJPope/Ethan-sFullKeyboard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple sections of digital design work (schematic capture in KiCad, PCB layout, keyboard matrix planning, and CAD for the case and plate) across several days. It also includes design-related images such as \"Keyboard Design and Rows/Columns\", \"Keyboard Schematic\", PCB 3D views, and CAD/plate screenshots supporting the design text.",
+    "build_justification": "The journal describes physical build activities (soldering components, troubleshooting tiny SMD parts, 3D printing the case, CNCing the plate, and assembling/testing the keyboard). It also includes build-related images like \"Main Keyboard PCB\", \"USB Module PCB\", \"Plate CNCing\", \"3D Printed Case\", and a \"Final Product\" photo that accompany the build descriptions."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/its-kronos/MacroBoard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content — planning, schematics, switch-matrix design, KiCad footprints, PCB routing, and CAD/case work described across many sessions (e.g. 6/11–6/19 entries). Multiple design-related images are included (KiCad screenshots of the matrix, PCB routing, footprints, and 3D case/plate exports).",
+    "build_justification": "The journal also documents physical build activity — hand-assembly, gluing, wiring/hand-wiring, soldering rows/columns/diodes, and firmware/code drafting (e.g. 7/13–7/24 entries). Several photos of the physical build are present (assembly photos, soldering close-ups, and final product images)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/DylM0nster22/plant_vertical_spinner/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple passages describing digital design and CAD work (drive pods, gearboxes, dimensions, part thicknesses, 6wd change, supports, wheel armor) and includes several inline images associated with those design entries.",
+    "build_justification": "There is a build entry describing printing parts, assembly, and soldering the robot along with a photo (PXL_20250802_050353163) showing the assembled/tested robot, so both build text and images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AIIan-Li/allankeyboard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing research, layout planning, matrix sketches, schematics, KiCad PCB layout work, and CAD case work (Fusion/honeycomb). Design sections include multiple images such as ./images/epomakerrefference.png, ./images/sketch.png, ./images/schematic.png, ./images/keyboardlayout.png, ./images/initialpcb.png, ./images/pcbv1.png, and ./images/pcbfinal.png that illustrate the digital design work.",
+    "build_justification": "The journal includes build-phase text describing soldering diodes and the MCU, loading firmware, assembling and modifying 3D-printed case parts, snapping and soldering switches, and final assembly. Build sections include images like ./images/pcbwithdiodes.jpeg, ./images/plate%20bending.jpeg, ./images/case%20bottom%20solder.jpeg, and ./images/full%20keyboard%20built.jpeg that document the physical build steps."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/geg-tech/biblicallyaccuratekeyboard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital-design content (CAD modeling, PCB layout, BOM/planning and keycap/schematic design) spread across multiple entries (e.g. 'Preliminary Designing', 'PCB Designed', 'Started CAD on the case', 'Designed the core PCB'), and includes design-related images such as preliminary 3D model renders and PCB screenshots.",
+    "build_justification": "The journal documents physical build activity (prototyping wiring with a Raspberry Pi Pico, printing/welding parts, assembling PCBs/keycaps, and firmware work with QMK) and includes build-related photos such as the prototype wiring/testing images and photos of printed parts/PCBs fitting together."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Kings-Indian/Rotating-Platforms/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The July 21 entry clearly contains digital design work (electronics layout, measurements, CAD/extrusion, mounting and wheel design) and is accompanied by multiple images such as 'Electronics Sketch', 'Measurements and Scale', and 'Final Electrical Component Mount', satisfying the requirement for design text and images.",
+    "build_justification": "Entries on July 22 and July 23 describe assembly and scaling steps and the August 1 entry explicitly mentions soldering wires and assembling everything; these build-related notes are accompanied by assembly and soldering images (e.g., 'Assembly' images and the August 1 soldering photo), so there is build text and build imagery (design-section images were not counted toward the build images)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/mynameisashllee/flora/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text describing planning, BOM/wiring diagrams, 3D modelling (Fusion) and firmware planning (e.g. entries on 18–21 May and 16 Jun), accompanied by design images such as the paper-prototype photos, 3D model screenshots (flora.png, flora3.png) and an annotated diagram.",
+    "build_justification": "The journal contains detailed build-phase text covering physical assembly, soldering, servo-horn modification, wiring, debugging and final mounting (entries from 27 Jun onward), and includes build images showing the wired circuit, servo assembly, soldering, mounted components and the finished flower (e.g. wired.png, horn.png, solder.png, final.png)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/hephaestushex/HexBoard/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing keyboard layout work, schematics, PCB routing, BOM creation, and CAD/case design (KiCad, Fusion/KLE work, cost/BOM notes). Multiple Markdown images are embedded alongside those design descriptions (e.g., PCB/schematic and CAD/plate renders), satisfying the image requirement.",
+    "build_justification": "The journal includes build-phase text covering firmware development (ZMK builds, debugging) and physical assembly steps (soldering diodes, switches, MCU, heat-set inserts) and debugging of traces. Several photos and screenshots are present in the assembly and firmware sections (IMG_/WIN_ photos and code/keymap screenshots), meeting the build-image requirement."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Outdatedcandy92/Pedalboard/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains extensive design-phase text describing KiCad schematics, PCB layout and routing, ground pours, panelizing, BOM work, and a CAD enclosure render. Multiple inline images with valid URLs accompany these design descriptions (schematics, PCB fronts/backs, renders).",
+    "build_justification": "The journal includes build-phase text describing physical work such as drilling and painting enclosures, soldering boards, assembly, troubleshooting and testing. However, the build-related image tags in those sections are empty (no valid image URLs), so there are no actual build images present; note that the many valid images earlier are all part of the design sections and do not count for the build phase."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cheyao/stmounter/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal repeatedly describes schematic work, component selection, PCB routing, form-factor decisions, and multiple board revisions (e.g., entries on 23/05–25/05). It also includes several images of schematics and PCB layouts that accompany those design entries.",
+    "build_justification": "There is no text about physical assembly, soldering, or firmware/bootloading, and all images depict schematics/PCB designs rather than a physical build, so no build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheEternalComrade/The-Prince54/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains substantial digital design content — planning and layout work, KLE usage, KiCad footprint edits, PCB and case CAD/edgecuts work, and plate generation via ai03. Several screenshots and CAD/plate images are embedded (e.g. multiple Screenshot and image links in the May 15–20 and May 19 entries) supporting the design phase.",
+    "build_justification": "The journal documents hands-on build activity — soldering, assembly, firmware work (KMK/QMK), debugging broken traces and microcontrollers, desoldering and handwiring, and 3D printed case fitting. Multiple photographic images from June (e.g. 20250618_221203, wiring photos, and desoldering/new plate photos) accompany these build descriptions."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Badbird5907/thermal-camera/master/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (schematic design, PCB routing, BOM changes, and case CAD) across several dates, and includes design-related images (kicad and CAD screenshots such as files named kicad_... and ApplicationFrameHost_...) shown on 6/4.",
+    "build_justification": "The journal documents physical build activity (parts arrival, reflowing parts, debugging, bodge wires, and firmware/library changes) in the 7/8 entry and includes build images (photos named 20250709_...) showing the assembled/debugged hardware."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Outdatedcandy92/CurtainOpener/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains planning and digital design content (project planning, CAD, wiring diagram, and BOM) across multiple entries (June 19, June 26, June 28, mid-July). Those design sections include several images (CAD renders, wiring diagram, and BOM photos) demonstrating the digital design work.",
+    "build_justification": "The journal includes build-phase text describing printing parts, mounting them on the wall, and writing firmware (23-24 July), and that build section contains photos of the real motor, idler, enclosure, and a firmware/web UI screenshot, so there are images associated with the physical build and firmware."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Badbird5907/microkey/master/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes design-related text describing schematic and PCB creation, footprint and LED selection, keyring hole plating, trace optimization, and edge plating (entries on 6/27–6/28). Those design entries are accompanied by images (e.g., the PNG links shown after the 6/27 design notes).",
+    "build_justification": "The journal includes build-related text describing assembly, reflowing of parts, and firmware development for the capacitive touch sensor (entries on 7/20–7/22). Those build entries include multiple photos (the three github user-attachments images) showing the assembled board."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Patcybermind/rf-on-a-budget--PIC16F13145-wireless-telemetry-sub-dollar-radio-/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes digital design and planning text — testing harmonics, using clock/clk-out pins, logic/bitstream behavior, antenna length tradeoffs, and choosing Manchester encoding — and embeds SDR/pulseview screenshots in the July 13th section illustrating the signal and preamble.",
+    "build_justification": "The entry describes build/firmware work — getting MPLAB to compile/upload, toggling output pins, writing and debugging Python code that interfaces with an RTL‑SDR, and adjusting hardware timers — and includes a July 17th image showing the working signal after fixes."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AayanShaikh007/scalars-keyboard/main/journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit design-phase text describing schematic work, PCB layout, part selection (microcontroller, MCP23017 decision, rotary encoder) and 3D modelling of the case. It also includes design images such as a 'Low Res Preview of Schematic' and a 'Preview of PCB' referenced inline.",
+    "build_justification": "The journal includes build-phase text detailing wiring, soldering, component testing, firmware development, and assembly steps. Multiple build images are present, including photos of the wired PCB, soldering/diode work, firmware screenshot, and the printed/assembled case."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SamhithPola2025/Socketkeeb/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The DESIGNING section (Days 1–4) contains explicit digital design discussion including schematics, PCB layout/routing, BOM work, and CAD/case design in Onshape. Multiple embedded images are present showing PCB views and CAD renders.",
+    "build_justification": "The BUILDING section (Days 5–6) includes physical build details such as soldering diodes and switches, replacing a broken RP2035 board, 3D printing parts, and uploading KMK firmware. That section also includes photos/images of the assembled PCB and build progress."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/regular030/Keyboard-Saturn/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text describing schematic creation, PCB routing (including use of vias), component selection (Pi Pico pinout, MCP23017/SN74HC165N) and planning the 100% layout; images in the PCB-making section (schematic and PCB/vias) are included.",
+    "build_justification": "The journal contains build-phase text covering physical work and firmware (chassis creation and printing, palm rest, soldering/rework, QMK→Arduino firmware migration, debugging SN74HC165N and OLED), and includes photos of the chassis/palm rest and OLED debugging."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Cyclic007/miniMagicMacroMachene/master/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-related entries describing PCB creation, BOM, part selection, CAD/case work (FreeCAD, Fusion360, turbocase), and fixing pinouts/traces. Those design entries include several embedded images (e.g., images on May 16, May 17, and May 19 showing PCB and case screenshots).",
+    "build_justification": "The journal explicitly documents build-phase activity such as firmware work (QMK/ZMK), soldering, and 'finished building and soldering and setup the firmwere.' However, there are no images placed within the Build section, so no build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Kings-Indian/MyFirstRobotCAD/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive digital design content describing CAD work (base structure, gears, motor negative model, open drivetrain, battery modeling, tank drive modules, smoothing and animation) and includes multiple Markdown images (e.g. ![](https://github.com/user-attachments/assets/3138b7b6-a10b-4aa8-bcd2-7cd15fe408ad)).",
+    "build_justification": "The journal documents build-phase activity including firmware/printer setup (Klipper/Mainsail/printer.cfg) and a physical assembly/wiring step where motors, tank modules, and H-bridge wiring were installed; the printer setup entry includes a Markdown image and the final build entry includes an image of the assembled project."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Choccy-vr/WLED-BOX/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal contains design-focused text describing the PCB schematic, choice of the ESP32-C3 Xiao, completion of V1 of the PCB, and CAD/case work (hexagon pattern, USB and LED cutouts, BOM/README prep). It also includes multiple image embeds showing the schematic/PCB and case renders.",
+    "build_justification": "There is no text describing physical build activities (soldering, assembly, or firmware flashing) or any build process details; all images are associated with the schematic/PCB and CAD, so no separate build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eddyzow/EZCam/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit digital design discussion (CAD changes, electronics design, servo-driven mechanism, mounting/CAD model issues) and includes images tied to those design entries (e.g., CAD appearance change and servo mechanism screenshots).",
+    "build_justification": "The journal describes physical build and assembly work (case door, main body, jollylook insertion, IRL camera photo) and includes photos of the assembled/physical parts (including an IRL picture and multiple case/main-body photos)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eddyzow/PCB-Hacker-Badge/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": true,
+    "design_justification": "The journal contains explicit digital design discussion (schematic choices, chip selection, antenna/impedance matching, parts selection, PCB artwork and layout) and includes multiple design images such as the schematic and front-art comparisons.",
+    "build_justification": "While there are no procedural build details (soldering/assembly/firmware), the author adds a photo of the finished product (entry #4) which is a build-related image showing the assembled card."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/nimitvijayvargee/keyboardv2/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing schematics, PCB layout and routing, BOM preparation, case CAD/3D export, and silkscreen work (e.g., May 22, May 26, May 27–June 5, June 6–12, June 18–19). Those design entries include several images (for example the images attached on May 22, May 26, May 27–June 5 and June 6–12).",
+    "build_justification": "The journal also contains build-focused entries describing soldering, assembly, firmware/QMK and VIAL configuration and debugging (e.g., June 14, July 4–7 and July 5–7). Build-related entries include images showing the assembled/soldered PCBs and configuration/testing (for example the images on June 14 and July 4–7), so build images are present independent of the design images."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SamhithPola2025/Skater5D/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple entries describing digital design work (OnShape CAD for rails and mounts, schematic creation and reworking, PCB layout, footprint selection, BOM planning and 3D board export) across Days 1–4. These design entries are accompanied by several images (e.g., OnShape/PCB screenshots and exported board models).",
+    "build_justification": "The journal includes build-phase activity such as firmware development for the ESP32 (real-time MPU6050/BNO08X streaming, PC-side classifier) and physical assembly/soldering of the PCB. Build entries include images of the soldered PCB and a firmware-related screenshot (Day 5 and Day 7) demonstrating physical/firmware work."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LucasHT22/multi-station/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The June 17 entry explicitly mentions planning, writing a doc, and 'CADing new case', which is digital design content, and that entry includes two images illustrating the design/CAD work.",
+    "build_justification": "The June 24 and June 29 entries describe physical work (coding, fitting everything into the case, a burned LED due to missing resistor and observations about the Arduino and 3D printer), and both of those entries include photos showing the physical build."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eddyzow/cold-brew-express/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase content (CAD progress, BOM, design plan, part modeling and iteration) across multiple entries (e.g., ‘CAD is done!’, BOM and design plan entries). Several images accompany those design-focused entries (for example the Onshape/CAD screenshots in entries 6, 5, 4 and 3).",
+    "build_justification": "The journal also contains build-phase content describing physical assembly, wiring, 3D printing parts, mounting battery/controller, troubleshooting a fried controller, and functional testing (e.g., entries 7–11). Photos of the actual assembled scooter and build issues (for example the images in entry 11 showing the assembled scooter and a stressed/failed part) are included."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/cheyao/esp-usb/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains substantial design-phase text describing PCB footprint creation, schematic work, RF/impedance calculations, multi-layer routing and antenna keepouts, and includes multiple inline images (PCB contact, impedance diagram, board/routing renders and schematics).",
+    "build_justification": "There is build-phase text mentioning physical work (e.g. 'Reflowed ths PCB (multiple times)') indicating soldering/assembly activity, but no images are provided alongside those build notes, so no build images are present."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/meepodeep/ModuDeck/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains multiple design-focused entries describing PCB design, CAD, case and mount design, module templates, and finalization of printability and port dimensions. These design entries are accompanied by several inline images (![](...)) showing the PCB, CAD models, and mounts.",
+    "build_justification": "The journal also includes build-focused entries describing soldering and assembly work (battery module soldering, BMS work, keyboard construction and firmware flashing, case transfers and mounting). These build entries include their own images (for example the 6/24, 6/26, 6/28 and 6/30 entries) documenting the physical builds."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Outdatedcandy92/PicoDucky/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": false,
+    "design_justification": "The journal contains detailed design-phase content: schematic/BOM discussion, PCB layout iterations, routing, and silkscreen planning. Multiple embedded images (layout versions, routing screenshots, and silkscreen previews) accompany those design descriptions.",
+    "build_justification": "There is build-phase text describing receiving the manufactured board, testing it, and installing firmware (PicoFido) and verifying on webauthn.io, but there are no images included in the build/testing portion of the log."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Outdatedcandy92/FM-Transmitter/main/Journal.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains extensive design-phase text describing chip selection, schematics, PCB layout decisions, BOM work, and v2 schematic/PCB planning (entries on May 20, May 21, May 22, May 23, July 20–22). Multiple design-related images are included, e.g. the schematic image, PCB layout renders and 3D renders.",
+    "build_justification": "The journal includes build-phase text covering SMD placement, hotplate/reflow attempts, solder bridges, troubleshooting, soldering of updated boards, testing and I2C/firmware work (entries on June 12, June 27–28). Several build photos are present, including stencil/assembly photos, solder-bridge closeups, and images of the assembled board."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/meepodeep/ErgoDecks/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-phase text such as \"I designed the PCB\", \"I designed the Case in fusion\", BOM/MCU changes and PCB updates, and includes images in the design entries (e.g., two images under 5/23/25 and two under 5/24/25).",
+    "build_justification": "The journal includes build-phase text describing physical assembly and firmware work—soldering switches, diodes and the MCU, desoldering issues, replacing dead MCUs, and writing a ZMK config—and contains images associated with the build (three images on 6/25/25)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/pizzalover125/cardpad/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal includes design/planning text (mentions creating a 3x3 matrix, adding an IO extender, and 'Here is my final PCB') and contains two PCB images immediately after that design-related text, so design text and images are present.",
+    "build_justification": "There is no description of physical assembly, soldering, enclosure work, or firmware flashing; the included images are PCB/design shots linked in the design section and therefore do not count as build images."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eddyzow/PomodoroTimer/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes design/planning content such as CAD of the case, BOM creation, wiring diagram updates, and component selection (Arduino Nano, rotary encoder placement). Multiple entries include design-related images (CAD and wiring diagram photos in entries #1, #5, and #4).",
+    "build_justification": "The journal describes physical build work including firmware development, assembly, soldering/troubleshooting, and adding the battery/power system, and it includes final build photos (entry #7’s images and earlier firmware/mode screenshot) accompanying those build updates."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/eddyzow/Easy75/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal includes extensive design-phase text describing KiCad schematics, PCB layout, Onshape CAD, plate generation, mounting hole and gasket considerations (entries #0–#7, #10). There are multiple design-related images (schematic/PCB previews and CAD/plate images, e.g. the previews shown in entry #1 and CAD/plate images in entries #4 and #10).",
+    "build_justification": "The journal contains build-phase text describing physical wiring, soldering, assembly, firmware debugging, and MCU/OLED/diode troubleshooting (notably entries #3, #12, #13, #14). There are photos of the wired PCB and final assembled keyboard and sound test images (e.g. images in entries #3, #13 and the final photos in entry #14)."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/KnowScratcher/QuakeCord/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains several entries describing digital design and planning (CAD work in FreeCAD, case modeling, print-time estimation, and PCB mention) across May 31, June 3–6, etc., and includes design images such as img/20250525structure.png and img/20250531model.png embedded with markdown.",
+    "build_justification": "The journal documents physical build activity (breadboarding, gluing, drilling printed parts, firmware development, assembly and deployment) and includes build images such as img/20250525breadboard.jpg shown in the prototype/build entries using markdown, plus multiple photos of printed and assembled parts."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/RyanBran888/keyboard-for-me/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": false,
+    "build_images_present": false,
+    "design_justification": "The journal contains multiple design-oriented entries describing the keyboard layout, schematics/wiring, PCB/CAD work, and keycap design (days 1–3). These design entries include several embedded images showing the layout, schematic/wiring diagrams, and CAD renders.",
+    "build_justification": "There is no text describing physical build activities (soldering, assembly, printing completion, or firmware) and no images showing an assembled or physically built keyboard; all images are associated with the design/CAD/schematic work."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/danieliscrazy/Jukebox/main/JOURNAL.md",
+    "design_text_present": true,
+    "design_images_present": true,
+    "build_text_present": true,
+    "build_images_present": true,
+    "design_justification": "The journal contains design-focused text describing 3D modelling and CAD work (TinkerCAD), dimensions/pixel sizing, case splitting and joinery, and plans for fitting the Raspberry Pi and speaker; these entries (May 24 onwards) are accompanied by multiple images including a side of the jukebox, a full jukebox render, a GIF showing disc design, and parts/layout images. ",
+    "build_justification": "The journal also contains build-focused text describing wiring the RC522 RFID to the Pi, testing/tag reads, soldering the speaker and I2S board, and final assembly (entries on May 23, 25, 30, June 1), with supporting photos such as the setup scanning a card (IMG_3839) and the Pi terminal output showing tests."
+  }
+]
