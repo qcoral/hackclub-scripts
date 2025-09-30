@@ -1,0 +1,21 @@
+{
+    "name": "demo-to-unified-adapter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sync": "node sync.mjs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.12.1",
+    "dependencies": {
+        "airtable": "^0.12.2",
+        "csv-parse": "^6.1.0",
+        "dotenv": "^17.2.2",
+        "node-fetch": "^3.3.2",
+        "nodemon": "^3.1.10"
+    }
+}

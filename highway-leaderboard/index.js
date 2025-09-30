@@ -7,84 +7,93 @@ const base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(
     process.env.AIRTABLE_BASE_ID
 );
 
-
 async function updateLeaderboard() {
-  try {
-    // 1. Calculate combined points
-    const users = await getCombinedPoints();
-    
-    if (Object.keys(users).length === 0) {
-      console.log('No user data found to update');
-      return { success: true, count: 0 };
-    }
+    try {
+        // 1. Calculate combined points
+        const users = await getCombinedPoints();
 
-    // 2. Get existing leaderboard records
-    const existingRecords = await base('leaderboard').select().all();
-    const existingEmails = new Map();
-    
-    existingRecords.forEach(record => {
-      existingEmails.set(record.get('email'), record.id);
-    });
-
-    // 3. Prepare batch updates and creates
-    const updates = [];
-    const creates = [];
-    
-    for (const [email, data] of Object.entries(users)) {
-      const recordData = {
-        "email": email,
-        "slack_id": data.slack_id || '',
-        // Always sum project_points and sidequest_points for total_points
-        "total_points": (data.project_points || 0) + (data.sidequest_points || 0)
-      };
-      if (existingEmails.has(email)) {
-        updates.push({
-          id: existingEmails.get(email),
-          fields: recordData
-        });
-        // Debugging: log update action
-        console.log(`🔄 Updating ${email} (${existingEmails.get(email)}) with ${recordData.total_points} points`);
-      } else {
-        creates.push({
-          fields: recordData
-        });
-        // Debugging: log create action
-        console.log(`🆕 Creating ${email} with ${recordData.total_points} points`);
-      }
-    }
-
-    // Helper to batch process records
-    async function batchProcess(records, action) {
-      let count = 0;
-      for (let i = 0; i < records.length; i += 10) {
-        const batch = records.slice(i, i + 10);
-        try {
-          await base('leaderboard')[action](batch);
-          count += batch.length;
-        } catch (error) {
-          console.error(`❌ Failed to ${action} batch:`, error.message);
+        if (Object.keys(users).length === 0) {
+            console.log("No user data found to update");
+            return { success: true, count: 0 };
         }
-      }
-      return count;
+
+        // 2. Get existing leaderboard records
+        const existingRecords = await base("leaderboard").select().all();
+        const existingEmails = new Map();
+
+        existingRecords.forEach((record) => {
+            existingEmails.set(record.get("email"), record.id);
+        });
+
+        // 3. Prepare batch updates and creates
+        const updates = [];
+        const creates = [];
+
+        for (const [email, data] of Object.entries(users)) {
+            const recordData = {
+                email: email,
+                slack_id: data.slack_id || "",
+                // Always sum project_points and sidequest_points for total_points
+                total_points:
+                    (data.project_points || 0) + (data.sidequest_points || 0),
+            };
+            if (existingEmails.has(email)) {
+                updates.push({
+                    id: existingEmails.get(email),
+                    fields: recordData,
+                });
+                // Debugging: log update action
+                console.log(
+                    `🔄 Updating ${email} (${existingEmails.get(email)}) with ${
+                        recordData.total_points
+                    } points`
+                );
+            } else {
+                creates.push({
+                    fields: recordData,
+                });
+                // Debugging: log create action
+                console.log(
+                    `🆕 Creating ${email} with ${recordData.total_points} points`
+                );
+            }
+        }
+
+        // Helper to batch process records
+        async function batchProcess(records, action) {
+            let count = 0;
+            for (let i = 0; i < records.length; i += 10) {
+                const batch = records.slice(i, i + 10);
+                try {
+                    await base("leaderboard")[action](batch);
+                    count += batch.length;
+                } catch (error) {
+                    console.error(
+                        `❌ Failed to ${action} batch:`,
+                        error.message
+                    );
+                }
+            }
+            return count;
+        }
+
+        // 4. Execute batched updates and creates
+        const updateCount = await batchProcess(updates, "update");
+        const createCount = await batchProcess(creates, "create");
+
+        console.log(
+            `✅ Leaderboard update complete: ${updateCount} updates, ${createCount} creates`
+        );
+        return {
+            success: true,
+            updated: updateCount,
+            created: createCount,
+        };
+    } catch (error) {
+        console.error("⛔ Error updating leaderboard:", error);
+        return { success: false, error: error.message };
     }
-
-    // 4. Execute batched updates and creates
-    const updateCount = await batchProcess(updates, 'update');
-    const createCount = await batchProcess(creates, 'create');
-
-    console.log(`✅ Leaderboard update complete: ${updateCount} updates, ${createCount} creates`);
-    return { 
-      success: true, 
-      updated: updateCount,
-      created: createCount
-    };
-    
-  } catch (error) {
-    console.error('⛔ Error updating leaderboard:', error);
-    return { success: false, error: error.message };
-  }
 }
-
 
 async function getCombinedPoints() {
     const users = {};
@@ -93,8 +102,7 @@ async function getCombinedPoints() {
         // Fetch all records from your table
         const records = await base(process.env.AIRTABLE_PROJECT_TABLE_ID)
             .select({
-                filterByFormula:
-                    "{Status} = 'Fulfilled'",
+                filterByFormula: "{Status} = 'Fulfilled'",
                 // You can add filters or sorting here if needed
             })
             .all();
