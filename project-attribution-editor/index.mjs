@@ -62,4 +62,4 @@ async function updateRecords(csvPath) {
     }
 }
 
-updateRecords("csv_full.csv");
+updateRecords("matched_pairs_clean.csv");
